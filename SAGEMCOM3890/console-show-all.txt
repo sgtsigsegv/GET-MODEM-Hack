@@ -1,0 +1,180 @@
+Index        Name         MAC address IP Address
+    1          CM   98:1e:19:a3:c3:c1 1.2.3.4
+    6        EMTA   98:1e:19:a3:c3:c4 2.3.4.5
+    2 LAN Private   98:1e:19:a3:c3:c2 192.168.100.1
+    2 LAN Private   98:1e:19:a3:c3:c2 fe80::xxx:xxx:xxx:xxx/64
+    9    ITC0->RG   40:65:a3:de:ad:11 172.31.255.Y
+    9    ITC0->RG   40:65:a3:de:ad:11 fe80::xxxx:xxx:xxxx:xxxx/64
+    9    ITC0->RG   40:65:a3:de:ad:11 fe80::ffff:yyyy:yyyy/64
+    9    ITC0->RG   40:65:a3:de:ad:11 fd00::ffff:yyyy:yyyy/64
+
+
+
+    --------------------
+Console/show version
+--------------------
+
+
+                          *
+                         * *
+                         * *
+                        *   *
+                        *   *
+                       *     *
+                       *     *
+                       *     *
+                      *       *
+                      *       *
+                      *       *
+                     *         *
+                     *         *
+                     *         *
+                     *         *
+                    *           *
+          *         *           *         *
+        *   *       *           *       *   *          ***
+*     *      *     *             *     *      *     *       *******************
+   *          *   *               *   *          *
+                *                   *
+
+Broadcom Corporation Reference Design
+
+ +------------------------------------------------------------------------------------------------+
+ |       _/_/     _/_/_/_/    _/_/                                                                |
+ |      _/  _/   _/        _/    _/   Broadband                                                   |
+ |     _/  _/   _/        _/                                                                      |
+ |    _/_/     _/_/_/    _/           Foundation                                                  |
+ |   _/  _/   _/        _/                                                                        |
+ |  _/   _/  _/        _/    _/       Classes                                                     |
+ | _/_/_/   _/          _/_/                                                                      |
+ |                                                                                                |
+ | Copyright (c) 1999 - 2019 Broadcom Corporation                                                 |
+ |                                                                                                |
+ | Revision:  Prod_18.2_d31                                                                       |
+ |                                                                                                |
+ | Features:  BCM93390SMWVG Console TelnetConsole SshConsole Nonvol Fat HeapManager SNMP          |
+ | Features:  Networking IPv6 (script bcm93390smwvg) PNM                                          |
+ | Features:  BCM3390 BMU Picocode rev 2.7.0a2                                                    |
+ +------------------------------------------------------------------------------------------------+
+ | Standard Embedded Target Support for BFC                                                       |
+ |                                                                                                |
+ | Copyright (c) 2003-2019 Broadcom Corporation                                                   |
+ |                                                                                                |
+ | Revision:  3.0.1                                                                               |
+ |                                                                                                |
+ | Features:  PID=0x3390 BIDnotread Bootloader-Rev=2.7.0alpha4                                    |
+ | Features:  Bootloader-Compression-Support=0x11 MANUFACT_BITS=0xa                               |
+ | Features:  IopLib-Rev=develop_d31.28.3..0.0  LEAP-Rev=10.4.7018.1                              |
+ +------------------------------------------------------------------------------------------------+
+ | eCos BFC Application Layer                                                                     |
+ |                                                                                                |
+ | Copyright (c) 1999 - 2019 Broadcom Corporation                                                 |
+ |                                                                                                |
+ | Revision:  3.0.2                                                                               |
+ |                                                                                                |
+ | Features:  IPv6 Stack Version 1.2.0                                                            |
+ | Features:  eCos Console Cmds, (no Idle Loop Profiler)                                          |
+ +------------------------------------------------------------------------------------------------+
+ |         _/_/    _/     _/                                                                      |
+ |      _/    _/  _/_/ _/_/   DOCSIS Cable Modem                                                  |
+ |     _/        _/  _/ _/                                                                        |
+ |    _/        _/     _/                                                                         |
+ |   _/        _/     _/                                                                          |
+ |  _/    _/  _/     _/                                                                           |
+ |   _/_/    _/     _/                                                                            |
+ |                                                                                                |
+ | Copyright (c) 1999 - 2019 Broadcom Corporation                                                 |
+ |                                                                                                |
+ | Revision:  FAST3890V3_GET-SIP_sw05.76.6.4c                                                     |
+ |                                                                                                |
+ | Features:  AckCel(tm) DOCSIS 3.1 Propane(tm) CM SNMP w/Factory MIB Support CM Vendor           |
+ | Features:  Extension FAP EURO Production L2VPN ECN's current to CW125                          |
+ +------------------------------------------------------------------------------------------------+
+ | Broadcom Data-Only CM Vendor Extension                                                         |
+ |                                                                                                |
+ | Copyright (c) 1999 - 2019 Broadcom Corporation                                                 |
+ |                                                                                                |
+ | Revision:  3.0.2                                                                               |
+ |                                                                                                |
+ | Features:  DHCP Server  HTTP Server  OSS2-N-03025 Visualization LED Controller                 |
+ +------------------------------------------------------------------------------------------------+
+ |       _/     _/ _/_/_/ _/                                                                      |
+ |      _/_/ _/_/   _/   _/_/  Embedded MTA                                                       |
+ |     _/  _/ _/   _/   _/ _/                                                                     |
+ |    _/     _/   _/   _/  _/                                                                     |
+ |   _/     _/   _/   _/_/__/  CableLabs Certified                                                |
+ |  _/     _/   _/   _/    _/  PacketCable Certified                                              |
+ | _/     _/   _/   _/     _/                                                                     |
+ |                                                                                                |
+ | Copyright (c) 1999 - 2019 Broadcom Corporation                                                 |
+ |                                                                                                |
+ | Revision:  Prod_18.2                                                                           |
+ |                                                                                                |
+ | Features:  bcm93390smwvg (EuroPacketCable) eCos                                                |
+ | Features:  PacketCable-v1.5                                                                    |
+ | Features:  PROFILE: None                                                                       |
+ | Features:  OPTIONS: SIP SIP-DQoS EDVA-IPv4                                                     |
+ | Features:  MSO:GET                                                                             |
+ | Features:  LDX-APP: dspApp3390_all_codecs-apm                                                  |
+ | Features:  LDX VERSION: 31.181.0                                                               |
+ | Features:  XCHG VERSION: 181.0 - Built: May 23 2018 19:49:21                                   |
+ | Features:  XDRV VERSION: 181.0 - Built: May 23 2018 19:49:15                                   |
+ | Features:  SIP Stack VERSION: 4.1.2.2-181.0 - Built: Jan 31 2018 10:22:43                      |
+ | Features:  Logging: All                                                                        |
+ | Features:                                                                                      |
+ | Features:  MTA LIB DATE: Jul  5 2019 16:57:09                                                  |
+ | Features:  Build options:                                                                      |
+ | Features:  dspapp=all_codecs mlv_lines=1 pktc_ver=15 sip=1 euro=1 inv_boost=1 fast3890=3 get=1 |
+ +------------------------------------------------------------------------------------------------+
+ | Build Date      : Jul  5 2019                                                                  |
+ | Build Time      : 17:24:32 (+0200)                                                             |
+ | Build By        : rmm-svce-urd2int01                                                           |
+ | Build Products  :                                                                              |
+ | Build Processors: 3390                                                                         |
+ | Build Parameters:  pid 3390 num_sids 16 docsis 31 c 45 mtaipv6 0 j 4 outputdir                 |
+ | Build Parameters: FAST3890V3_GET-SIP imagename FAST3890V3_GET-SIP_sw05.76.6.4c chipRev Bx      |
+ | Build Targets   :                                                                              |
+ | Build Tag       : (no                                                                          |
+ | Image Path      : /home/rmm-svce-urd2int01/workspace/Fast3890v3_GET-SIP/get-sip-MAIN/openwrt/  |
+ | Image Path      : dl/broadcom-ecos/cm/rbb_cm/rbb_cm_src/CmDocsisSystem/ecos/FAST3890V3_GET-SIP |
+ | Image Name      : FAST3890V3_GET-SIP_sw05.76.6.4c_sto.bin                                      |
+ | Build Command   : bcm93390smwvg eu sip nosigtls sipdqos nosipdbg sagemcom get nodect mtaipv6   |
+ | Build Command   : 0 nolinux_on_tp1 j 4 outputdir FAST3890V3_GET-SIP imagename                  |
+ | Build Command   : FAST3890V3_GET-SIP_sw05.76.6.4c noslim unimacbyoi chipRev Bx map openssh     |
+ | Build Command   : l2vpn                                                                        |
+ | Build Options   :  noavs cmd_help_text nocomcast_video_caching demangle deps dualbuild         |
+ | Build Options   : nodynwebpage factorymibs nofan_control noheapboundscheck noheapleakdebug     |
+ | Build Options   : http mgmtmibs nobattery_fdhdwr nobcm80211n nocmapp_port_forward nocpp11      |
+ | Build Options   : nodual_band_80211n nobcm80211n_debug nobonded nocpeportfilter nocmethlan     |
+ | Build Options   : nodasm nodiag nodtp_test nodualeth nodualflash nodslite noedva               |
+ | Build Options   : noextendedugs noflashserver noflashclient nofn_profile nofonhotspot nofpm    |
+ | Build Options   : nogrehomehotspot nogrelegacymib nohnap nohomehotspot nohttpssl               |
+ | Build Options   : nointernalusb noipsv noiptv nowasu noleaptestportal nol2ogre nol2tpv2        |
+ | Build Options   : nol2tpv3 nolinux_on_pmc nolinux_on_zephyr nolinux_partitions                 |
+ | Build Options   : nolinux_watchdog nolinux_erouter_on_zephyr nomanagedswitch nomediaserver     |
+ | Build Options   : nonandboot nonas nonat_hwaccel nodisablemtc_mode nootp noperfmonitor         |
+ | Build Options   : nopiggyback pktc nopmip nopopup nopppoe nopptp nopseudoflash norgipv6        |
+ | Build Options   : noserialportoff noshow nosipipv6 nosmp nosnmpproxy nosnoopdebug              |
+ | Build Options   : nowifi_spectrum_analyzer nosplitbootblock nosiliconverify nostress_test      |
+ | Build Options   : nosuperslim notftp_server notr104 nousb20 nousbhost nodualusbhost nouda      |
+ | Build Options   : nousg_web_pages noutp_test novendorhttps useformregistrar nowifihotspot      |
+ | Build Options   : nowifimfg noclwifi nodual_lna noscrambler_seed_shift nomid_split openssl     |
+ | Build Options   : quiet nounified vpn novin12v warn_error novlan noethwan nolegacy_parent      |
+ | Build Options   : noswitch53124 nopcielowpwr nousmac_diag noupnpc noswitchport_1_4 nomoca      |
+ | Build Options   : nomoca20 msc noaprouter noautodetect_tuner2 noautodetect_tuner4              |
+ | Build Options   : nodocsis20snmp noemtasim noeps noerouter nogfap_standalone noikos            |
+ | Build Options   : nomixed_annex nonewpki nono_cmts_d3_partial_svc nooms nosingleconsole        |
+ | Build Options   : nosingle_ds nosled us nobpi_helper_on_fap notr69 noxml_doc nocmtr69          |
+ | Build Options   : noedge_device novirtnihal nozephyr_console_uart0 noecm normagnum nodsg       |
+ | Build Options   : norswdload noestb_config nooob noprereg_sets nocdl20 nodsg30 noecm_clcerts   |
+ | Build Options   : nopcieep nob2b_rgmii nodavic noext_ephy nohost_bridge nodavic_api            |
+ | Build Options   : nog8davic_api noseb nocustom_vendor_dir use_unimac0 nostb_owns_eth2 nodnac   |
+ | Build Options   : nostb_has_lan noecmestbsockif nocablecard_ipproxy nostb_pcie_vlan            |
+ | Build Options   : noexplicit_vlan nolgi_dawn noestb_ecm_vlan_connection nostb_on_eth2          |
+ | Build Options   : nolow_gw d30 noejtag smisb spectrum_analyzer fpm512 nojedecflash             |
+ | Build Options   : nonandflash nocfiflash noamdflash nointelflash newleds cacheopt power        |
+ | Build Options   : fap_assist multiprocmon thermal_monitor cmvendor emta nospiflash battery     |
+ | Build Options   : litepower ipv6 ip_rnvol itc rtrproxy linux_erouter turbo_wifi monolith eu    |
+ | Build Options   : sip nosigtls sipdqos nosipdbg telnet nodect nolinux_on_tp1 noslim            |
+ | Build Options   : unimacbyoi map openssh l2vpn                                                 |
+ +------------------------------------------------------------------------------------------------+

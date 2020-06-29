@@ -1,0 +1,19 @@
+CM> ?
+
+!               ?               REM             call            cd
+dir             find_command    help            history         instances
+ls              man             pwd             sleep           syntax
+system_time     usage
+----
+con_high        cpuHistogram    cpuLoad         cpuUtilization  exit
+mbufShow        memShow         mtu             mutex_debug     ping
+poll            poll_print      poll_reset      poll_start      poll_stop
+read_memory     reset           routeShow       run_app         shell
+socket_debug    stackShow       taskDelete      taskInfo        taskPrioritySet
+taskResume      taskShow        taskSuspend     taskSuspendAll  taskTrace
+usfsShow        version         write_memory    zone
+----
+[CmRgMsgPipe] [Console] [HeapManager] [HostDqm] [battery] [cm_hal]
+[docsis_ctl] [dtp] [embedded_target] [emc] [emta] [event_log] [fam] [flash]
+[forwarder] [httpClient] [ip_hal] [itc_hal] [msgLog] [non-vol] [pingHelper]
+[pnm] [power] [snmp] [snoop] [spectrum_analyzer] [thermal]
